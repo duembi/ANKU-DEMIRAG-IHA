@@ -50,7 +50,7 @@ This repository contains the code and documentation for the **ANKÜ-DEMİRAĞ İ
 
 ## 🌟 Project Summary
 
-The ANKÜ-DEMİRAĞ İHA is a fixed-wing Unmanned Aerial Vehicle system capable of autonomously executing two main missions (Combat UAV and Kamikaze UAV) and one side mission (Avoidance of No-Fly Zones)[cite: 29].
+The ANKÜ-DEMİRAĞ İHA is a fixed-wing Unmanned Aerial Vehicle system capable of autonomously executing two main missions (Combat UAV and Kamikaze UAV) and one side mission (Avoidance of No-Fly Zones).
 
 | Feature | Value |
 | :--- | :--- |
