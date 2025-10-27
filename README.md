@@ -1,7 +1,7 @@
 
 # 🚀 ANKÜ-DEMİRAĞ İHA - TEKNOFEST 2024 Savaşan İHA Yarışması
 
-Bu repo, **TEKNOFEST 2024 Savaşan İHA Yarışması** için tasarlanan **ANKÜ-DEMİRAĞ İHA** projesinin kod ve dokümantasyonunu içermektedir. Projemiz, hava aracının kritik otonom görevleri yüksek doğruluk ve hızla gerçekleştirmesini hedeflemektedir.
+Bu repo, **TEKNOFEST 2024 Savaşan İHA Yarışması**na katılan **ANKÜ-DEMİRAĞ İHA** takımının kod ve dokümantasyonunu içermektedir. Projemiz, hava aracının kritik otonom görevleri yüksek doğruluk ve hızla gerçekleştirmesini hedeflemektedir.
 
 ## 🌟 Proje Özeti
 
