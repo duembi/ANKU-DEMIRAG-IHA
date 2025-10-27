@@ -50,7 +50,7 @@ This repository contains the code and documentation for the **ANKÜ-DEMİRAĞ İ
 
 ## 🌟 Project Summary
 
-[cite_start]The ANKÜ-DEMİRAĞ İHA is a fixed-wing Unmanned Aerial Vehicle system capable of autonomously executing two main missions (Combat UAV and Kamikaze UAV) and one side mission (Avoidance of No-Fly Zones)[cite: 29].
+The ANKÜ-DEMİRAĞ İHA is a fixed-wing Unmanned Aerial Vehicle system capable of autonomously executing two main missions (Combat UAV and Kamikaze UAV) and one side mission (Avoidance of No-Fly Zones)[cite: 29].
 
 | Feature | Value |
 | :--- | :--- |
@@ -64,21 +64,21 @@ This repository contains the code and documentation for the **ANKÜ-DEMİRAĞ İ
 
 [cite_start]The autonomous capabilities of our project are primarily achieved through advanced image processing algorithms running on the mission computer (Raspberry Pi 5)[cite: 226].
 
-1.  [cite_start]**Autonomous Lock-On (Combat UAV Mission):** Real-time detection and tracking of rival UAVs[cite: 262, 264].
-    * [cite_start]**Detection Algorithm:** **YOLOv8**, optimized for high accuracy and speed[cite: 287, 327].
-    * [cite_start]**Tracking Algorithm:** **Deep-SORT**, used to maintain tracking during collisions or temporary loss of sight[cite: 374, 380, 406].
-2.  [cite_start]**Kamikaze Mission:** Diving toward a QR code, reading the message, and executing a safe go-around maneuver[cite: 467, 481, 518].
-3.  [cite_start]**Air Defense System (Side Mission):** Autonomous avoidance of no-fly zones (Geofence)[cite: 32, 522].
+1.  **Autonomous Lock-On (Combat UAV Mission):** Real-time detection and tracking of rival UAVs[cite: 262, 264].
+    * **Detection Algorithm:** **YOLOv8**, optimized for high accuracy and speed[cite: 287, 327].
+    * **Tracking Algorithm:** **Deep-SORT**, used to maintain tracking during collisions or temporary loss of sight[cite: 374, 380, 406].
+2.  **Kamikaze Mission:** Diving toward a QR code, reading the message, and executing a safe go-around maneuver[cite: 467, 481, 518].
+3.  **Air Defense System (Side Mission):** Autonomous avoidance of no-fly zones (Geofence)[cite: 32, 522].
 
 ## 💻 My Contribution: Image Processing / Artificial Intelligence
 
 [cite_start]I took an active role in one of the most critical and challenging parts of the project: the **Image Processing and Artificial Intelligence** sub-system[cite: 209]. My responsibilities included:
 
-* [cite_start]**Model Selection and Optimization:** Selecting and integrating the optimal model, **YOLOv8**, after comparing the FPS and accuracy values of real-time object detection algorithms[cite: 287, 327].
-* [cite_start]**Hardware and Integration:** Selecting and integrating the **Raspberry Pi 5 8GB** mission computer, chosen for its high processing power, low power consumption, and compact size to run the image processing algorithms[cite: 223, 226, 228, 229, 230].
-* [cite_start]**Dataset Preparation:** Performing *data augmentation* and labeling processes to create a custom dataset consisting of **17,000 images** that simulate competition conditions[cite: 363, 365, 366].
-* [cite_start]**Autonomous Lock-On/Tracking:** Incorporating the **Deep-SORT** object tracking algorithm to improve detection efficiency against the dynamic movements of rival UAVs[cite: 372, 406].
-* [cite_start]**QR Code Decoding:** Developing an QR code reading algorithm for the Kamikaze mission that uses a **Homography Matrix** to remove perspective distortions [cite: 488, 490] [cite_start]and a **Gaussian Filter** to reduce noise in captured images[cite: 493, 494].
+* **Model Selection and Optimization:** Selecting and integrating the optimal model, **YOLOv8**, after comparing the FPS and accuracy values of real-time object detection algorithms[cite: 287, 327].
+* **Hardware and Integration:** Selecting and integrating the **Raspberry Pi 5 8GB** mission computer, chosen for its high processing power, low power consumption, and compact size to run the image processing algorithms[cite: 223, 226, 228, 229, 230].
+* **Dataset Preparation:** Performing *data augmentation* and labeling processes to create a custom dataset consisting of **17,000 images** that simulate competition conditions[cite: 363, 365, 366].
+* **Autonomous Lock-On/Tracking:** Incorporating the **Deep-SORT** object tracking algorithm to improve detection efficiency against the dynamic movements of rival UAVs[cite: 372, 406].
+* **QR Code Decoding:** Developing an QR code reading algorithm for the Kamikaze mission that uses a **Homography Matrix** to remove perspective distortions [cite: 488, 490] [cite_start]and a **Gaussian Filter** to reduce noise in captured images[cite: 493, 494].
 
 
 
