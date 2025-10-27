@@ -36,7 +36,11 @@ Ben, projenin en kritik ve zorlu kısımlarından biri olan **Görüntü İşlem
 * **QR Kod Çözümleme:** Kamikaze görevi için, görüntülerdeki perspektif bozulmalarını gidermek amacıyla **Homografi Matrisi** ve gürültü azaltmak için **Gauss Filtresi** kullanan QR kod okuma algoritmasının
 
 
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 EN
